@@ -14,7 +14,6 @@ const FixedBackground = () => {
             initial={{ rotate: 0}}
             animate= {{rotate: 180}}
             transition={{ duration: 145, ease: "easeInOut", repeat: Infinity }}
-
             />
             <motion.img 
             src={line2}
@@ -29,7 +28,6 @@ const FixedBackground = () => {
             initial={{ rotate: 0}}
             animate= {{rotate: 180}}
             transition={{ duration: 105, ease: "easeInOut", repeat: Infinity }}
-
             />
             <motion.img 
             src={line4}

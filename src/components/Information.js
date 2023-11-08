@@ -6,14 +6,16 @@ const Information = () => {
     return(
     <div className="info-container">
         <div className="info-text">
-            <h2 className="info-header">I am Dylan Cassell and I am a fullstack developer</h2>
+            <h2 className="info-header">My name is Dylan Cassell.</h2>
+            <div className='info-body'>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o
-                fficia deserunt mollit anim id est laborum.
+                I am a fullstack developer born and residing in Canada.
             </p>
+            <p>
+                I am primarily interested in web technologies and infrastructure. My main development frameworks currently are Ruby On Rails, Angular and React. 
+                The entire Microsoft Technology stack is something I am quite familiar with as well.
+            </p>
+        </div>
         </div>
         <div className="picture">
             <div className="picture-container">
