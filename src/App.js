@@ -3,7 +3,8 @@ import './App.css';
 import FixedBackground from './components/FixedBackground';
 import { motion } from "framer-motion";
 import Typewriter from 'typewriter-effect';
-import { Information } from './components/Information'
+import InfoPage from './components/Information';
+import FrontPage from './components/FrontPage';
 
 
 function App() {
@@ -11,9 +12,8 @@ function App() {
     <div className="app-container">
       <FixedBackground />
       <div className='content'>
-        <h1 title='DYLAN CASSELL'>DYLAN CASSELL</h1>
-        <h3 title='Fullstack Developer'>Fullstack Developer</h3>
-        <Information />
+        <FrontPage />
+        <InfoPage />
       </div>
       
     </div>
