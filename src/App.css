@@ -100,18 +100,23 @@
   z-index: 1;
 }
 .front-page-container {
-  margin: 24%;
+  margin: 20%;
 }
-h1 {
+h1[title='DYLAN CASSELL'] {
+  display: flex;
+  margin-left: 5%;
   font-size: 100px;
   font-style: italic;
   font-family: "Salterio-Shadow";
   animation: glitch 1s linear infinite;
 }
+h1[title='DYLAN'], h1[title='CASSELL'] {
+  display: none;
+}
 h3 {
+  color:rgba(255, 255, 255, 0.726);
   font-weight: bolder;
-  font-style: italic;
-  margin-left: 26%;
+  text-align: center;
   font-family: "Roboto Mono", monospace!important;
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -321,5 +326,20 @@ h1:after, h3:after{
 .copyright-container span {
   font-style: italic;
   font-family: "Salterio-Shadow";
-  animation: glitch 1s linear infinite;
+}
+
+@media (max-width: 800px) {
+  h1[title='DYLAN CASSELL']{
+    font-size: 76px;
+  }
+  .info-container{
+    width: 80%;
+    display: block;
+  }
+  .info-container h2 {
+    padding: 10px;
+    font-family: "Roboto Mono", monospace!important;
+    border-bottom:4px solid #383838;
+    width: 80%;
+  }
 }
