@@ -25,6 +25,7 @@ function ContactForm() {
   return (
     <div className="contact-form">
       <h2>Get in touch.</h2>
+      <h3>Email me directly at dylan.cassell@daedalussolutions.software</h3>
       <form onSubmit={handleSubmit}>
         <div>
           <label>Name:</label>
