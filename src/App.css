@@ -209,6 +209,16 @@ h1:after, h3:after{
   }
 }
 
+.scroll-down-icon-container {
+  text-align: center;
+}
+.scrollDownIcon {
+  position: relative;
+  top: 200px;
+  z-index: 999;
+  width: 4%;
+}
+
 .info-container {
   margin-left: 15%;
   display: flex;
@@ -291,11 +301,6 @@ h1:after, h3:after{
 .contact-form div {
   margin-bottom: 15px;
 }
-.footer-container{
-  border-top: inset #ccc;
-  background: rgb(56,56,56);
-  background: linear-gradient(90deg, rgba(56,56,56,1) 0%, rgba(0,0,0,1) 100%);
-}
 .social-media-icons {
   text-align: center;
 }
@@ -329,10 +334,23 @@ h1:after, h3:after{
 }
 
 @media (max-width: 800px) {
+  .fixed-background {
+    left: -1400px;
+  }
+  .front-page-container {
+    margin: 0%;
+    margin-top: 60%;
+    margin-bottom:75%;
+    padding: 20px;
+  }
   h1[title='DYLAN CASSELL']{
-    font-size: 76px;
+    text-align: center;
+    margin-left: 0%;
+    font-size: 68px;
   }
   .info-container{
+    margin-left: 5%;
+    text-align: center;
     width: 80%;
     display: block;
   }
@@ -340,6 +358,14 @@ h1:after, h3:after{
     padding: 10px;
     font-family: "Roboto Mono", monospace!important;
     border-bottom:4px solid #383838;
-    width: 80%;
+    width: 100%;
   }
+  .contact-form {
+    width: 70%;
+    margin: 0% auto;
+  }
+  .picture {
+    width: 110%;
+  }
+
 }

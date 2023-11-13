@@ -2,6 +2,7 @@ import React from 'react';
 import '../App.css';
 import { motion } from "framer-motion";
 import { AnimatePresence } from 'framer-motion';
+import scrollDownIcon from "../assets/scrolldown.svg";
 
 const FrontPage = () => {
     return(
@@ -11,10 +12,6 @@ const FrontPage = () => {
             animate={{ opacity:1 }}
             transition={ {duration: 0.5, ease: "easeIn"}}>
                 <h1 title='DYLAN CASSELL'>DYLAN CASSELL</h1>
-                <div className='mobile-name-display'>
-                    <h1 title='DYLAN'>DYLAN</h1>
-                    <h1 title='CASSELL'>CASSELL</h1>
-                </div>
             </motion.div>
             <AnimatePresence>
                 <motion.div
@@ -26,6 +23,18 @@ const FrontPage = () => {
                     <h3>Fullstack Developer</h3>
                     </div>
                 </motion.div>
+            </AnimatePresence>
+                <AnimatePresence>
+                    <div className='scroll-down-icon-container'>
+                        <motion.img
+                        initial={{ opacity:0, y: 0 }}
+                        animate={{opacity:1, y: [0, 30, 0] }} // Animate the 'y' property from 0 to 30, back to 0
+                        transition={{delay: 6, repeat: Infinity, duration: 1.5 }} // Infinite animation with a duration of 1 second
+                        style={{ display: 'inline-block' }}
+                        src={scrollDownIcon}
+                        className='scrollDownIcon'
+                    />
+                    </div>
             </AnimatePresence>
         </div>
     );

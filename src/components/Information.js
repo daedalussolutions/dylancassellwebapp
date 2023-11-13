@@ -17,10 +17,8 @@ const Information = () => {
             </p>
         </div>
         </div>
-        <div className="picture">
-            <div className="picture-container">
-                <img src={Picture} alt="Picture" />
-            </div>
+        <div className="picture-container">
+            <img src={Picture} className="picture" alt="Picture" />
         </div>
     </div>
     );
