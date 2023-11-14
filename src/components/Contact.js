@@ -52,7 +52,7 @@ function ContactForm() {
           <input
             type="text"
             name="subject"
-            value={formData.message}
+            value={formData.subject}
             onChange={handleChange}
             required
           ></input>

@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import line1 from "../assets/bg-line.svg";
-import line2 from "../assets/bg-line.svg";
-import line3 from "../assets/bg-line.svg";
-import line4 from "../assets/bg-line.svg";
+import line1 from "../assets/icons/bg-line.svg";
+import line2 from "../assets/icons/bg-line.svg";
+import line3 from "../assets/icons/bg-line.svg";
+import line4 from "../assets/icons/bg-line.svg";
 
 const FixedBackground = () => {
   return (

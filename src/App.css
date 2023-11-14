@@ -2,16 +2,14 @@
 
 @font-face {
   font-family: 'Salterio-Shadow';
-  src: local('Salterio-Shadow'), url('fonts/SalterioShadow.ttf') format('truetype'),
+  src: local('Salterio-Shadow'), url('assets/fonts/SalterioShadow.ttf') format('truetype'),
 }
 @font-face {
   font-family: 'Roboto Mono';
-  src: local('Roboto Mono'), url('fonts/RobotoMono-Medium.ttf') format('truetype'),
+  src: local('Roboto Mono'), url('assets/fonts/RobotoMono-Medium.ttf') format('truetype'),
 }
 :root {
   /* Base font size */
-
-  
   /* Set neon color */
   --neon-text-color: rgba(255, 255, 255, 0.171);
 }
@@ -239,12 +237,44 @@ h1:after, h3:after{
   flex: 1;
   
 }
-.info
 
 .picture {
   text-align: center;
   flex: 1;
 }
+
+.resume-container {
+  display:flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 5%;
+  margin-left: 10%;
+  font-family: "Roboto Mono";
+  background-color: #6f0000;
+  transition-duration: 200ms;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(156, 156, 156, 0.3) 0px 30px 60px -30px, rgba(172, 172, 172, 0.35) 0px -2px 6px 0px inset;
+}
+
+.resume-container:hover {
+  transform: scale(1.1);
+  transition-duration: 200ms;
+}
+
+.resume-button-text {
+  padding: 2%;
+  flex: 1;
+}
+.resume-button-logo{
+  text-align: right;
+  flex: 1;
+}
+
+.logo {
+  padding: 5%;
+  width: 15%;
+}
+
+
 
 .contact-form h3{
   color:rgb(255, 255, 255);
@@ -376,6 +406,10 @@ h1:after, h3:after{
   }
   .picture {
     width: 110%;
+  }
+
+  .contact-form h3 {
+    font-size: 14px;
   }
 
 }

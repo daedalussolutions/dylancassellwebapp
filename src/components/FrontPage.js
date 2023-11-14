@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { motion } from "framer-motion";
 import { AnimatePresence } from 'framer-motion';
-import scrollDownIcon from "../assets/scrolldown.svg";
+import scrollDownIcon from "../assets/icons/scrolldown.svg";
 
 const FrontPage = () => {
     return(

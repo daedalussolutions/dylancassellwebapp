@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import Picture from '../images/IMG_7250.png';
+import Picture from '../assets/images/IMG_7250.png';
 
 const Information = () => {
     return(
