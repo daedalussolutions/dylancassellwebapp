@@ -12,7 +12,7 @@ const Information = () => {
                 I am a fullstack developer born and residing in Canada.
             </p>
             <p>
-                I am primarily interested in web technologies and infrastructure. My main development frameworks currently are Ruby On Rails, Angular and React. 
+                I am primarily interested in web technologies and infrastructure. My current main development frameworks are Ruby On Rails and React. 
                 The entire Microsoft Technology stack is something I am quite familiar with as well.
             </p>
         </div>

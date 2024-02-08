@@ -52,6 +52,17 @@
   }
 }
 
+a {
+  text-decoration: none;
+  color:#6f0000;
+  transition-duration: 200ms;
+}
+
+a:hover{
+  transition-duration: 200ms;
+  color: #fff;
+}
+
 .fixed-background {
   position: fixed;
   background-color: #070707;
