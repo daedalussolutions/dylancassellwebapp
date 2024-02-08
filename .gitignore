@@ -27,3 +27,4 @@ firebase.json
 public/index.html
 public/index.html
 src/firebase.js
+.github/workflows/firebase-hosting-pull-request.yml
