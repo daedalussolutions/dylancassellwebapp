@@ -11,7 +11,7 @@ const Resume = () => {
       
     <div className='resume-container'onClick={openResume}>
         <div className='resume-button-text'>
-          <h2>Click to view my resume</h2>
+          <h2>Click to view my CV</h2>
         </div>
         <div className='resume-button-logo'>
           <img src={logo} className="logo" alt='logo'></img>
