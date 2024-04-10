@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
 import DisableZoom from './functions/DisableZoom';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <FrontPage />
         <InfoPage />
         <Resume />
+        <Portfolio />
         <Contact />
         <Footer />
       </div>
