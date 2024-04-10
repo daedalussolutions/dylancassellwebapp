@@ -17,7 +17,7 @@ const Portfolio = () => {
     <div className='portfolio-container'>
          {images.map((image, index) => (
         <a key={index} href={image.link} target="_blank" rel="noopener noreferrer">
-            <img key={index} src={image.image} alt={`Image ${index + 1}`} />
+            <img key={index} src={image.image}/>
         </a>
       ))}
     </div>

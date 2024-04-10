@@ -385,6 +385,35 @@ h1:after, h3:after{
   font-family: "Salterio-Shadow";
 }
 
+.portfolio-container {
+  margin-top: 15%;
+  margin-left: 17%;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  grid-gap: 10px;
+}
+
+.portfolio-container img {
+  width: 600px; 
+  height: 500px; 
+  object-fit: cover;
+  transition: 0.5s ease;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.portfolio-container img:hover {
+  cursor: pointer;
+  -webkit-filter: blur(2px);
+  transition: 0.5s ease;
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(156, 156, 156, 0.3) 0px 30px 60px -30px, rgba(172, 172, 172, 0.35) 0px -2px 6px 0px inset;
+
+}
+
 @media (max-width: 800px) {
   .fixed-background {
     left: -1400px;
@@ -418,39 +447,20 @@ h1:after, h3:after{
   }
   .picture {
     width: 110%;
-  }s
+  }
 
   .contact-form h3 {
     font-size: 14px;
   }
 
-}
+  .portfolio-container {
+    margin: 15% 2%;
+    grid-template-columns: repeat(1, 50%);
+  }
 
-.portfolio-container {
-  margin-top: 15%;
-  margin-left: 17%;
-  display: grid;
-  grid-template-columns: repeat(2, 40%);
-  grid-gap: 10px;
-}
-
-.portfolio-container img {
-  width: 600px; 
-  height: 500px; 
-  object-fit: cover;
-  transition: 0.5s ease;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-}
-
-.portfolio-container img:hover {
-  cursor: pointer;
-  -webkit-filter: blur(2px);
-  transition: 0.5s ease;
-  filter: grayscale(0%);
-  filter: gray;
-  -webkit-filter: grayscale(0%);
-  filter: none;
-  box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(156, 156, 156, 0.3) 0px 30px 60px -30px, rgba(172, 172, 172, 0.35) 0px -2px 6px 0px inset;
+  .portfolio-container img {
+    height: 200px;
+    width: 200%;
+  }
 
 }
