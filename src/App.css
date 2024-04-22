@@ -414,6 +414,20 @@ h1:after, h3:after{
 
 }
 
+::-webkit-scrollbar{
+  width: 15px
+}
+
+::-webkit-scrollbar-track {
+  background: #181818;
+}
+
+::-webkit-scrollbar-thumb {
+  border: #00000057 1px solid;
+  background: #6f0000;
+  border-radius: 5px;
+}
+
 @media (max-width: 800px) {
   .fixed-background {
     left: -1400px;
