@@ -9,7 +9,7 @@ const Portfolio = () => {
         {image: codergrindCover, link: 'https://codergrind.onrender.com/'},
         {image: weatherOnRailsCover, link: 'https://weather-on-rails.onrender.com/'},
         {image: cryptoPortfolioCover, link: 'https://cryptoportfolio-exe.onrender.com/'},
-        {image: wrenchPortalCover, link: ''}
+        {image: wrenchPortalCover, link: 'https://wrenchportal.onrender.com/services'}
     ];
 
   return (
