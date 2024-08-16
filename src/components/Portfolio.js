@@ -6,10 +6,10 @@ import cryptoPortfolioCover from '../assets/images/cryptoportfolioexe-cover.png'
 
 const Portfolio = () => {
     const images = [
-        {image: codergrindCover, link: 'https://codergrind.onrender.com/'},
-        {image: weatherOnRailsCover, link: 'https://weather-on-rails.onrender.com/'},
+        {image: codergrindCover, link: 'https://codergrind.online/'},
+        {image: weatherOnRailsCover, link: 'https://weatheronrails.online/'},
         {image: cryptoPortfolioCover, link: 'https://cryptoportfolio-exe.onrender.com/'},
-        {image: wrenchPortalCover, link: 'https://wrenchportal.onrender.com/services'}
+        {image: wrenchPortalCover, link: 'https://wrenchportal.com/services'}
     ];
 
   return (
