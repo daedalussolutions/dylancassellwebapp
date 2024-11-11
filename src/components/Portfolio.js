@@ -2,14 +2,14 @@ import React from 'react';
 import wrenchPortalCover from '../assets/images/wrench-bg-cover.png'
 import codergrindCover from '../assets/images/codergrind-cover.png'
 import weatherOnRailsCover from '../assets/images/weather-on-rails-cover.PNG'
-import cryptoPortfolioCover from '../assets/images/cryptoportfolioexe-cover.png'
+import daedalussolutionsCover from '../assets/images/daedalussolutions-cover.jpg'
 
 const Portfolio = () => {
     const images = [
-        {image: codergrindCover, link: 'https://codergrind.online/'},
+        {image: wrenchPortalCover, link: 'https://wrenchportal.com/services'},
+        {image: daedalussolutionsCover, link: 'https://daedalussolutions.online'},
         {image: weatherOnRailsCover, link: 'https://weatheronrails.online/'},
-        {image: cryptoPortfolioCover, link: 'https://cryptoportfolio-exe.onrender.com/'},
-        {image: wrenchPortalCover, link: 'https://wrenchportal.com/services'}
+        {image: codergrindCover, link: 'https://codergrind.online/'},
     ];
 
   return (
