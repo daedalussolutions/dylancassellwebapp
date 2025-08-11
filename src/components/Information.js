@@ -9,11 +9,10 @@ const Information = () => {
             <h2 className="info-header">My name is Dylan Cassell.</h2>
             <div className='info-body'>
             <p>
-                I am a fullstack developer born and residing in Canada.
+                I am a technology jack of all trades.
             </p>
             <p>
-                I am primarily interested in web technologies and infrastructure. My current main development frameworks are Ruby On Rails and React. 
-                The entire Microsoft Technology stack is something I am quite familiar with as well.
+                While working full time as a Network Technician, I am developing and managing several projects relating to web development and remote server networking.
             </p>
         </div>
         </div>
